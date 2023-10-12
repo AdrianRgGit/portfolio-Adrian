@@ -13,3 +13,8 @@ $first-color: rgb(4, 13, 18);
 $second-color: rgb(24, 61, 61);
 $third-color: rgb(92, 131, 116);
 $fourth-color: rgb(147, 177, 166);
+
+// Global styles
+html {
+  background-color: $first-color;
+}
