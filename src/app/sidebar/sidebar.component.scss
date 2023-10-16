@@ -3,17 +3,24 @@
 .sidebar-list-container {
   font-family: $open-sans;
   font-weight: $weight-regular;
-  height: 100%;
-  width: 250px;
+
   position: fixed;
   top: 0;
   left: 0;
-  background-color: $second-color;
-  padding-top: 20px;
   z-index: 1;
-  list-style-type: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100%;
+  width: 250px;
+
   padding: 30px;
-  text-align: center;
+
+  list-style-type: none;
+
+  background-color: $second-color;
 }
 
 .sidebar-list-container a {
@@ -28,5 +35,24 @@
   background-color: #555;
 }
 
-.list-container {
+.list-item-container {
+  width: 30vh;
+  margin-top: 20px;
+  border: solid $first-color 1px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  padding: 20px;
+  border: solid $first-color 2px;
+  border-radius: 10px;
+  background-color: $fourth-color;
+  margin-right: 10px;
+}
+
+.title {
+  border: solid $first-color 1px;
+  border-radius: 10px;
 }
