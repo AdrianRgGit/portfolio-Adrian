@@ -1,6 +1,6 @@
 @import "../../styles.scss";
 
-.sidebar-container {
+.sidebar-list-container {
   font-family: $open-sans;
   font-weight: $weight-regular;
   height: 100%;
@@ -10,9 +10,13 @@
   left: 0;
   background-color: $second-color;
   padding-top: 20px;
+  z-index: 1;
+  list-style-type: none;
+  padding: 30px;
+  text-align: center;
 }
 
-.sidebar-container a {
+.sidebar-list-container a {
   padding: 15px;
   text-decoration: none;
   font-size: 18px;
@@ -20,6 +24,9 @@
   display: block;
 }
 
-.sidebar-container a:hover {
+.sidebar-list-container a:hover {
   background-color: #555;
+}
+
+.list-container {
 }
