@@ -1,0 +1,45 @@
+@import "../../styles.scss";
+
+.home-content-container {
+  height: 100vh;
+  // background-image: url("/assets/images/prueba.png");
+}
+
+.title-content h1,
+h2 {
+  font-size: 4rem;
+  font-weight: $weight-bold;
+}
+
+.title-content h2 {
+  color: $third-color;
+}
+
+.text-content {
+  color: $light-grey;
+  font-weight: $weight-light;
+}
+
+.download-container {
+  width: 200px;
+  height: 50px;
+}
+
+.download-container button {
+  width: 100%;
+  height: 100%;
+
+  border: none;
+  background-color: $third-color;
+}
+
+.download-container button:hover {
+  background-color: $light-grey;
+  transition: background-color 0.3s ease;
+}
+
+.download-container a {
+  text-decoration: none;
+  color: $dark-grey;
+  margin-right: 10px;
+}
