@@ -1,6 +1,6 @@
 @import "../../styles.scss";
 
-.sidebar-list-container {
+.sidebar-container {
   font-family: $open-sans;
   font-weight: $weight-regular;
 
@@ -17,11 +17,16 @@
   height: 100%;
   width: 250px;
 
-  padding: 30px;
-
-  list-style-type: none;
-
   background-color: $bold-grey;
+}
+
+.logo {
+  margin-top: 30px;
+}
+
+.sidebar-list-container {
+  list-style-type: none;
+  padding: 30px;
 }
 
 .sidebar-list-container a {
