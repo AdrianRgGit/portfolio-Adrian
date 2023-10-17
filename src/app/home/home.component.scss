@@ -1,7 +1,14 @@
 @import "../../styles.scss";
 
 .home-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  gap: 60px;
+
   height: 100vh;
+  
   // background-image: url("/assets/images/prueba.png");
 }
 
@@ -16,8 +23,14 @@ h2 {
 }
 
 .text-content {
+  max-width: 650px;
   color: $light-grey;
   font-weight: $weight-light;
+}
+
+.strong-word{
+  color: $third-color;
+  font-weight: bold;
 }
 
 .download-container {
