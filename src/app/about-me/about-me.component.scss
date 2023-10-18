@@ -1,11 +1,95 @@
+@import "../../styles.scss";
+
 .aboutme-content-container {
+  height: 100vh;
+  // background-image: url("/assets/images/prueba.png");
+}
+
+.title-container h1 {
+  font-size: 1.5rem;
+  color: $third-color;
+}
+
+.title-container h2 {
+  font-size: 2.5rem;
+  font-weight: $weight-bold;
+}
+
+.main-content-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ambition-container {
+  //   flex: 1;
+  max-width: 600px;
+}
+
+.ambition-container h3 {
+  font-weight: $weight-bold;
+}
+
+.ambition-container p {
+  color: $light-grey;
+}
+
+.purpose-container {
+  //   flex: 1;
+  max-width: 600px;
+}
+
+.purpose-container h3 {
+  font-weight: $weight-bold;
+}
+
+.purpose-container p {
+  color: $light-grey;
+}
+
+.avatar-container {
+  height: 150px;
+  margin-right: 100px;
+}
+
+.float-container {
+  position: absolute;
+  right: 10vh;
+  top: 165vh;
+
+  width: 300px;
+
+  padding: 20px;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
 
-  gap: 60px;
+  background-color: $third-color;
+  border: 1px solid $dark-grey;
 
-  height: 100vh;
+  color: black;
+  font-weight: $weight-bold;
+}
 
-  // background-image: url("/assets/images/prueba.png");
+.logo-container {
+  background-color: white;
+  width: 65px;
+  height: 65px;
+
+  border-radius: 10px;
+}
+
+.experience-container h4 span {
+  display: block;
+}
+
+.experience-container h4 {
+  font-size: 2rem;
+  font-weight: $weight-bold;
+}
+
+.experience-container span {
+  font-size: 1.25rem;
 }
