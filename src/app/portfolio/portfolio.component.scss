@@ -1,0 +1,61 @@
+@import "../../styles.scss";
+
+.portfolio-content-container {
+  height: 100vh;
+  // background-image: url("/assets/images/prueba.png");
+}
+
+.title-container h1 {
+  font-size: 1.5rem;
+  color: $third-color;
+}
+
+.title-container h2 {
+  font-size: 2.5rem;
+  font-weight: $weight-bold;
+}
+
+.title-container h4 {
+  margin-top: 30px;
+  margin-bottom: 60px;
+  color: $light-grey;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.card-container {
+  background-image: $dark-grey;
+  width: 500px;
+  position: relative;
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-container img {
+  width: 100%;
+}
+
+.card-text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  bottom: -100%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  width: 100%;
+  background-color: rgba(9, 16, 26, 0.7);
+}
+
+.card-container:hover .card-text {
+  opacity: 1;
+  bottom: 0;
+}
