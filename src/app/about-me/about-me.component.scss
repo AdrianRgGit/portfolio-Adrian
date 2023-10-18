@@ -11,6 +11,7 @@
 }
 
 .title-container h2 {
+  width: 800px;
   font-size: 2.5rem;
   font-weight: $weight-bold;
 }
@@ -23,7 +24,6 @@
 }
 
 .ambition-container {
-  //   flex: 1;
   max-width: 600px;
 }
 
@@ -36,7 +36,6 @@
 }
 
 .purpose-container {
-  //   flex: 1;
   max-width: 600px;
 }
 
@@ -56,7 +55,7 @@
 .float-container {
   position: absolute;
   right: 10vh;
-  top: 165vh;
+  top: 180vh;
 
   display: flex;
   justify-content: center;
