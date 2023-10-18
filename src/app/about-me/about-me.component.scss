@@ -1,0 +1,11 @@
+.aboutme-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  gap: 60px;
+
+  height: 100vh;
+
+  // background-image: url("/assets/images/prueba.png");
+}

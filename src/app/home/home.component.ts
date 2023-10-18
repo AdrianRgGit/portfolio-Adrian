@@ -26,11 +26,12 @@ export class HomeComponent implements OnInit {
 
   changeText() {
     this.currentIndex = (this.currentIndex + 1) % this.textList.length;
+    
+      this.currentText = this.textList[this.currentIndex];
+      document.querySelector('.dynamic-text')?.classList.add('hidden');
+      setTimeout(() => {
+        document.querySelector('.dynamic-text')?.classList.remove('hidden');
+      }, 2000);
 
-    this.currentText = this.textList[this.currentIndex];
-    document.querySelector('.dynamic-text')?.classList.add('hidden');
-    setTimeout(() => {
-      document.querySelector('.dynamic-text')?.classList.remove('hidden');
-    }, 2000);
   }
 }
