@@ -1,0 +1,44 @@
+@import "../../styles.scss";
+
+.portfolio-content-container {
+  height: 100vh;
+}
+
+.title-container {
+  text-align: center;
+  font-size: 1.25rem;
+  color: $third-color;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+}
+.card-container h4 {
+  color: white;
+}
+
+.text-container {
+  margin-left: 10px;
+  color: $light-grey;
+}
+
+.links-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.links-container a {
+  color: $light-grey;
+  text-decoration: none;
+}
+
+.links-container span {
+  color: $third-color;
+}
+
+@media screen and (min-width: 768px) {
+  .title-container h1 {
+    font-size: 1.5rem;
+  }
+}

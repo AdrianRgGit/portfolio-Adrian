@@ -14,7 +14,7 @@ export class HomeComponent implements OnInit {
     'Front Developer',
     'Back Developer',
     'Api creator',
-    'Basketball player',
+    'Basketball lover',
   ];
 
   currentIndex: number = 0;
