@@ -3,29 +3,22 @@
 .aboutme-content-container {
   height: 100vh;
   margin-bottom: 20vh;
-  // background-image: url("/assets/images/prueba.png");
 }
 
 .title-container h1 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   color: $third-color;
 }
 
 .title-container h2 {
-  width: 800px;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: $weight-bold;
 }
 
 .main-content-container {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.ambition-container {
-  max-width: 600px;
+  flex-direction: column;
+  text-align: center;
 }
 
 .ambition-container h3 {
@@ -33,11 +26,13 @@
 }
 
 .ambition-container p {
+  text-align: justify;
   color: $light-grey;
 }
 
 .purpose-container {
-  max-width: 600px;
+  // FIXME: Esto solucionarlo
+  margin-top: 160px;
 }
 
 .purpose-container h3 {
@@ -45,26 +40,26 @@
 }
 
 .purpose-container p {
+  text-align: justify;
   color: $light-grey;
 }
 
 .avatar-container {
-  height: 150px;
-  margin-right: 100px;
+  height: 350px;
+}
+
+.avatar-container img {
+  width: 100%;
+  height: auto;
 }
 
 .float-container {
-  position: absolute;
-  right: 10vh;
-  top: 180vh;
-
   display: flex;
   justify-content: center;
   align-items: center;
+  // margin-bottom: 20px;
 
-  width: 320px;
-
-  padding: 20px;
+  width: 100%;
 
   background-color: $third-color;
   border: 1px solid $dark-grey;
@@ -88,4 +83,69 @@
 .experience-container h4 span {
   display: block;
   font-size: 1.25rem;
+}
+
+@media screen and (min-width: 768px) {
+  .title-container h2 {
+    max-width: 70%;
+    font-size: 2.5rem;
+  }
+
+  .main-content-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+  }
+
+  .ambition-container {
+    max-width: 600px;
+  }
+
+  .purpose-container {
+    max-width: 600px;
+  }
+
+  .avatar-container {
+    height: 150px;
+    margin-right: 100px;
+  }
+
+  .float-container {
+    position: absolute;
+    right: 10vh;
+    top: 180vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 320px;
+
+    padding: 20px;
+
+    background-color: $third-color;
+    border: 1px solid $dark-grey;
+
+    color: black;
+    font-weight: $weight-bold;
+  }
+
+  .logo-container {
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  .experience-container h4 {
+    font-size: 2rem;
+    font-weight: $weight-bold;
+
+    margin-left: 15px;
+  }
+
+  .experience-container h4 span {
+    display: block;
+    font-size: 1.25rem;
+  }
 }
