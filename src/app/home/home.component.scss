@@ -4,17 +4,20 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 
   gap: 60px;
 
   height: 100vh;
+}
 
-  // background-image: url("/assets/images/prueba.png");
+.title-content {
+  text-align: center;
 }
 
 .title-content h1,
 h2 {
-  font-size: 4rem;
+  font-size: 2rem;
   font-weight: $weight-bold;
 }
 
@@ -59,11 +62,12 @@ h2 {
     opacity: 1;
   }
 }
-
 // ===========Dynamic text============
 
 .text-content {
-  max-width: 600px;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: justify;
   color: $light-grey;
   font-weight: $weight-light;
 }
@@ -86,13 +90,35 @@ h2 {
   background-color: $third-color;
 }
 
-.download-container button:hover {
-  background-color: $light-grey;
-  transition: background-color 0.3s ease;
-}
-
 .download-container a {
   text-decoration: none;
   color: $dark-grey;
   margin-right: 10px;
+}
+
+// ================ + 768px =============
+@media screen and (min-width: 768px) {
+  .home-content-container {
+    align-items: flex-start;
+  }
+
+  .title-content {
+    text-align: start;
+  }
+
+  .title-content h1,
+  h2 {
+    font-size: 4rem;
+  }
+
+  .text-content {
+    max-width: 70%;
+    margin: 0;
+    text-align: left;
+  }
+
+  .download-container button:hover {
+    background-color: $light-grey;
+    transition: background-color 0.3s ease;
+  }
 }

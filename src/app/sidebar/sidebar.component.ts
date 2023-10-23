@@ -20,4 +20,10 @@ export class SidebarComponent {
   faUser = faUser;
   faPhone = faPhone;
   faFolder = faFolder;
+
+  isMenuOpen = false;
+
+  toggleMenu() {
+    this.isMenuOpen = !this.isMenuOpen;
+  }
 }
