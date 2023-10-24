@@ -7,8 +7,9 @@
   align-items: center;
 
   gap: 60px;
+  margin-bottom: 20vh;
 
-  height: 100vh;
+  min-height: 70vh;
 }
 
 .title-content {
@@ -97,6 +98,7 @@ h2 {
 // ================ + 768px =============
 @media screen and (min-width: 768px) {
   .home-content-container {
+    min-height: 100vh;
     align-items: flex-start;
   }
 

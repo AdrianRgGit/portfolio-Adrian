@@ -1,7 +1,7 @@
 @import "../../styles.scss";
 
-.portfolio-content-container {
-  height: 100vh;
+.contact-content-container {
+  margin-bottom: 10vh;
 }
 
 .title-container {
@@ -21,6 +21,10 @@
 .text-container {
   margin-left: 10px;
   color: $light-grey;
+}
+
+.contact-email {
+  font-size: 0.85rem;
 }
 
 .links-container {

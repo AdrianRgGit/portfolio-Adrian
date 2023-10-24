@@ -1,7 +1,7 @@
 @import "../../styles.scss";
 
-.home-content-container {
-  height: 100vh;
+.aboutme-content-container {
+  margin-bottom: 10vh;
 }
 
 .title-container h1 {
@@ -29,11 +29,6 @@
   color: $light-grey;
 }
 
-.purpose-container {
-  // FIXME: Esto solucionarlo
-  margin-top: 160px;
-}
-
 .purpose-container h3 {
   font-weight: $weight-bold;
 }
@@ -45,6 +40,7 @@
 
 .avatar-container {
   height: 350px;
+  margin-bottom: 200px;
 }
 
 .avatar-container img {
@@ -58,7 +54,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  // margin-bottom: 20px;
 
   width: 100%;
 
