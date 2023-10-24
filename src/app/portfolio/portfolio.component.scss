@@ -1,7 +1,6 @@
 @import "../../styles.scss";
 
 .portfolio-content-container {
-  // height: 245vh;
   margin-bottom: 10vh;
 }
 
@@ -38,7 +37,7 @@
 
 .image-container img {
   width: 100%;
-  // height: 500px;
+  max-height: 320px;
 }
 
 .card-text {
