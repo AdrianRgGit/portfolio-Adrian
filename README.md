@@ -12,7 +12,7 @@ Welcome to my Fullstack Web Developer portfolio! Here you'll find a collection o
 
 - **Contact:** If you're interested in collaborating on a project or have any questions, feel free to get in touch with me. I'm always open to new opportunities and exciting challenges.
 
-Thank you for visiting my portfolio. I hope you enjoy exploring my projects and find inspiration for future collaborations. Don't hesitate to reach out to discuss ideas or work together on web projects!
+Thank you for visiting my portfolio. I hope you enjoy exploring my projects and find inspiration for future collaborations. Don't hesitate to reach out to discuss ideas or work together on web projects! Over time I will be adding more content and fixing small bugs that the web may have.
 
 ## Preview
 
