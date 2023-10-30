@@ -1,28 +1,27 @@
-# PortfolioAdrian
+# Fullstack Web Developer Portfolio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.5.
+Welcome to my Fullstack Web Developer portfolio! Here you'll find a collection of my previous projects reflecting my experience and skills in the world of web development. I'm passionate about creating dynamic and functional web applications, aiming to provide effective and appealing solutions using technologies in both the frontend and backend.
 
-## Development server
+## What will you find here?
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **About Me:** You can take a look at the technologies I'm familiar with, from programming languages to frameworks and libraries. I'm constantly learning and improving my skills to stay updated with the latest tech trends.
 
-## Code scaffolding
+- **Services:** I offer Full Stack, Front-end, and Back-end development services, and I'm comfortable in all of them.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Featured Projects:** Explore a variety of web projects I've developed, from interactive web applications to informative websites. Each project includes a brief description, screenshots, and links for you to learn more about them.
 
-## Build
+- **Contact:** If you're interested in collaborating on a project or have any questions, feel free to get in touch with me. I'm always open to new opportunities and exciting challenges.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Thank you for visiting my portfolio. I hope you enjoy exploring my projects and find inspiration for future collaborations. Don't hesitate to reach out to discuss ideas or work together on web projects!
 
-## Running unit tests
+## Preview
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![Preview](./src/assets/portfolio.png)
 
-## Running end-to-end tests
+## Contact
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+If you have any questions or suggestions, don't hesitate to contact me:
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# portfolio-Adrian
+- Name: Adrián Ramírez
+- Email: adrianramirezgalera@gmail.com
+- GitHub: [AdrianRgGit](https://github.com/AdrianRgGit)
