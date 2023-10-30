@@ -16,7 +16,7 @@ Thank you for visiting my portfolio. I hope you enjoy exploring my projects and 
 
 ## Preview
 
-![Preview](./src/assets/portfolio.png)
+![Preview](./src/assets/images/portfolio.png)
 
 ## Contact
 
